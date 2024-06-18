@@ -1,0 +1,169 @@
+   0 ls
+   1 ls -al
+   2 cd/home
+   3 cd /home
+   4 mkdir /animals
+   5 cd /animals
+   6 mkdir cats dogs fish
+   7 tree
+   8 cd /cats
+   9 cd /animals/cats/
+  10 touch garfield
+  11 tree
+  12 ls
+  13 ls -la
+  14 cd /animals/dogs/
+  15 touch pluto
+  16 tree
+  17 cd /tmp
+  18 touch adam
+  19 tree
+  20 cd /home/
+  21 mkdir humans
+  22 tree
+  23 cp /tmp/adam /home/humans
+  24 ls
+  25 ls -al
+  26 tree
+  27 cd /tmp/
+  28 touch evA
+  29 tree
+  30 mv /tmp/evA /opt/eve
+  31 cd /opt/
+  32 tree
+  33 mv /opt/eve /home/humans/
+  34 cd /home/humans/
+  35 tree
+  36 history > my_history.txt
+  37 history 
+  38 cd /home/
+  39 touch my_history.txt
+  40 tree
+  41 cd /home/humans/
+  42 tree
+  43 rmdir my_history.txt
+  44 rm /home/humans/my_history.txt
+  45 tree
+  46 cd /home/
+  47 touch my_history.txt
+  48 tree
+  49 ls -la
+  50 cd /animals/
+  51 tree
+  52 cd /home
+  53 tree
+  54 cd /animals/
+  55 tree
+  56 cd ../..
+  57 tree
+  58 cd /home/
+  59 tree
+  60 cd /animals/
+  61 pwd
+  62 pwd /animals/
+  63 pwd
+  64 mv /animals/ /home
+  65 cd /home/
+  66 tree
+  67 cd my_history.txt
+  68 history > my_history.txt
+  69 cd my_history.txt
+  70 history 100 > my_history.txt
+  71 ls - l my_history.txt
+  72 ls - l history_comands.txt
+  73 cd my_history.txt
+  74 cat my_history.txt
+  75 scp /home /my_history.txt C:/Users/Filipp/Downloads
+  76 scp /home /my_history.txt /Users/Filipp/Downloads
+  77 scp /home /my_history.txt С:\Users\Filipp\Downloads
+  78 tree
+  79 cd my_history.txt
+  80 ls /my_history.txt
+  81 export_file my_history.txt
+  82 clear
+  83 mkdir -p /user/start/1.txt
+  84 tree
+  85 cd/user
+  86 cd /user
+  87 tree
+  88 rm -rf /user
+  89 rm -rf user
+  90 cd .
+  91 cd home
+  92 cd /home
+  93 rm -rf user
+  94 cd /user
+  95 cd /home
+  96 mkdir -p /home/user/start/1.txt
+  97 tree
+  98 cat 1.txt
+  99 cat /1.txt
+ 100 cd /start
+ 101 cd /usr/
+ 102 cd /home/user/start
+ 103 echo "Start" >>1.txt
+ 104 cd /home/user/start/1.txt
+ 105 cd /home/user/start
+ 106 rmdir 1.tst
+ 107 rmdir 1.txt
+ 108 tree
+ 109 touch 1.txt
+ 110 tree
+ 111 echo "Start" >> 1.txt
+ 112 tree
+ 113 cd 1.txt
+ 114 pwd 1.txt
+ 115 cat 1.txt
+ 116 echo "$(date)" >> 1.txt
+ 117 cat 1.txt
+ 118 mkdir -p /opt/task/start.txt && cp 1.txt /opt/task/start.txt
+ 119 cd /opt
+ 120 tree
+ 121 cd /
+ 122 cat /
+ 123 ls -al
+ 124 ls -a
+ 125 tail -n 4 / > /opt/task/start.txt/
+ 126 tail -n 4 / > /opt/task/start.txt
+ 127 cd /opt/task/start.txt
+ 128 ls -l
+ 129 pwd
+ 130 cat start.txt
+ 131 cd /opt/task/
+ 132 rmdir /start.txt
+ 133 rmdir start.txt
+ 134 cd start.txt
+ 135 rmdir start.txt
+ 136 cd /opt/task/
+ 137 rm -r /start.txt
+ 138 rm -r start.txt
+ 139 touch start.txt
+ 140 tree
+ 141 tail -n 4 / > /opt/task/start.txt
+ 142 cat /
+ 143 cd /
+ 144 cat /
+ 145 cat start.txt
+ 146 ls -a
+ 147 tail -n 4 / > /opt/task/start.txt
+ 148 ls -l | tail -n 4 > /opt/task/start.txt 
+ 149 cd /start.txt
+ 150 cat start.txt
+ 151 cat /opt/task/start.txt 
+ 152 cd /home
+ 153 toch my_history_10.06.2024
+ 154 touch my_history_10.06.2024
+ 155 history my_history_10.06.2024
+ 156 tree
+ 157 cat my_history_10.06.2024
+ 158 ls my_history_10.06.2024 
+ 159 tree
+ 160 cd my_history_10.06.2024
+ 161 export my_history_10.06.2024
+ 162 mv my_history_10.06.2024 my_history_10.06.txt
+ 163 export my_history_10.06.2024.txt
+ 164 tree
+ 165 cat my_history_10.06.txt
+ 166 mv my_history_10.06.txt  my_history_10.06.2024.txt
+ 167 tree
+ 168 history > my_history.10.06.2024.txt
